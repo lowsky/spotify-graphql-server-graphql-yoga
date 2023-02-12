@@ -3,14 +3,9 @@ import express from "express";
 import path from "path";
 import cors from "cors";
 
-import { schema } from "./data/schema";
+import { yogaOptions } from "./api/graphql";
 
-const yoga = createYoga({
-  schema,
-  graphqlEndpoint: '/api/graphql',
-  batching: true,
-  logging: false
-})
+const yoga = createYoga(yogaOptions)
 
 const app = express();
 
