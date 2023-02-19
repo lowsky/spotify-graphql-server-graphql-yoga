@@ -13,15 +13,12 @@
     "simpletest": "tsx test/schemaTest.ts",
     "printSchema": "tsx bin/printSchema.ts",
     "watch": "npm run build ; tsx watch -r dotenv/config serverInit.ts",
-    "start": "npm run build ; tsx -r dotenv/config serverInit.ts",
-    "prepare": "yarn run snyk-protect",
-    "snyk-protect": "snyk-protect"
+    "start": "npm run build ; tsx -r dotenv/config serverInit.ts"
   },
   "dependencies": {
     "@envelop/core": "3.0.4",
     "@graphql-tools/mock": "8.7.18",
-    "@graphql-yoga/plugin-response-cache": "^1.5.1",
-    "@snyk/protect": "1.1100.0",
+    "@graphql-yoga/plugin-response-cache": "1.6.1",
     "@whatwg-node/fetch": "0.8.1",
     "cors": "2.8.5",
     "dotenv": "16.0.3",
@@ -37,6 +34,5 @@
     "@types/node": "18.13.0",
     "@vercel/node": "2.9.2",
     "tsx": "3.12.3"
-  },
-  "snyk": true
+  }
 }
