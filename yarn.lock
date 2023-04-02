@@ -34,16 +34,16 @@
     "@envelop/types" "3.0.1"
     tslib "2.5.0"
 
-"@envelop/response-cache@4.0.5":
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/@envelop/response-cache/-/response-cache-4.0.5.tgz#aa5f7bbe8478563b8aeceb32d0954d25d85fb4d5"
-  integrity sha512-zwLQc792xvzATSW66khSVNGzsNjuj1B6iL0Sxym2ooH72p88DrNi4v3Nii7ecDNgp6z+/0LPBE/Pml6/VchWaw==
+"@envelop/response-cache@^4.0.6":
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/@envelop/response-cache/-/response-cache-4.0.7.tgz#d0ae21791c2abe9d1bb1ad79b18ed21ba4929942"
+  integrity sha512-BBMSzSFgi0PHq4fUr3fN6PGOms9oJ1M/DHuAURKulnrMGtEs/MDEnPeMYrvhXLGmGCHOYMZgO2xapv70pYpc3g==
   dependencies:
     "@graphql-tools/utils" "^8.8.0"
     "@whatwg-node/fetch" "^0.6.5"
     fast-json-stable-stringify "^2.1.0"
     lru-cache "^6.0.0"
-    tslib "^2.4.0"
+    tslib "^2.5.0"
 
 "@envelop/types@3.0.1":
   version "3.0.1"
@@ -285,12 +285,12 @@
   dependencies:
     tslib "^2.3.1"
 
-"@graphql-yoga/plugin-response-cache@1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-1.6.1.tgz#8ac5131501293f5f020f4174de0bd75dd7b445f9"
-  integrity sha512-QKi+ERaS6IuwB79dGGb9M0+le06r+/EBuRiiAZa5wIUdli8/G7zml7qqCAPhDJ2EDQ56r/Bo6n1vAaZp5VFUgQ==
+"@graphql-yoga/plugin-response-cache@1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-1.8.0.tgz#fa2b9ada0d55cc90f0d92b70803dca2067239417"
+  integrity sha512-uyXbkjBtKSulaK8GeqONgRm1vu07+Cfn98Iu0B882VG1AsAoeRgAdPQA343tY37vMO85TXAwVwUrxz0BNZrW7w==
   dependencies:
-    "@envelop/response-cache" "4.0.5"
+    "@envelop/response-cache" "^4.0.6"
 
 "@graphql-yoga/subscription@^3.1.0":
   version "3.1.0"
