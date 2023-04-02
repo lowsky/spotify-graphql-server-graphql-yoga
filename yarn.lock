@@ -26,7 +26,15 @@
   dependencies:
     "@edge-runtime/primitives" "2.0.0"
 
-"@envelop/core@3.0.5", "@envelop/core@^3.0.4":
+"@envelop/core@3.0.6":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@envelop/core/-/core-3.0.6.tgz#e55c3564d05d648b0356a1c465aa90b0c51f485d"
+  integrity sha512-06t1xCPXq6QFN7W1JUEf68aCwYN0OUDNAIoJe7bAqhaoa2vn7NCcuX1VHkJ/OWpmElUgCsRO6RiBbIru1in0Ig==
+  dependencies:
+    "@envelop/types" "3.0.2"
+    tslib "^2.5.0"
+
+"@envelop/core@^3.0.4":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@envelop/core/-/core-3.0.5.tgz#bccbc6d267c0955211080688a8cba932763ace1b"
   integrity sha512-qMnjdZwlvGxlhXZS8SIEJ6F4eCYbGp/gwVyF2DoMCmKriy4NS+gSDbpl/9t13c/fql5x3/zhnzaL39OAhX532A==
@@ -51,6 +59,13 @@
   integrity sha512-Ok62K1K+rlS+wQw77k8Pis8+1/h7+/9Wk5Fgcc2U6M5haEWsLFAHcHsk8rYlnJdEUl2Y3yJcCSOYbt1dyTaU5w==
   dependencies:
     tslib "^2.4.0"
+
+"@envelop/types@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@envelop/types/-/types-3.0.2.tgz#a4b29375b7fcee39bb5830f87f66bbc815cf305e"
+  integrity sha512-pOFea9ha0EkURWxJ/35axoH9fDGP5S2cUu/5Mmo9pb8zUf+TaEot8vB670XXihFEn/92759BMjLJNWBKmNhyng==
+  dependencies:
+    tslib "^2.5.0"
 
 "@envelop/validation-cache@^5.1.2":
   version "5.1.2"
