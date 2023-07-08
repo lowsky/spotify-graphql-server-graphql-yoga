@@ -56,15 +56,15 @@
     "@envelop/types" "4.0.0"
     tslib "^2.5.0"
 
-"@envelop/response-cache@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@envelop/response-cache/-/response-cache-5.0.0.tgz#6eb0929352d28e369373c70102e59609064ea52a"
-  integrity sha512-CVcH0D2Ht0Rr1UJhOPPN5LUK18/UaoBi1PtNlqusY2yI5yHbzztqVsg9mxQv6jHuIHE6FWAYzZJN38viPGyYuA==
+"@envelop/response-cache@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@envelop/response-cache/-/response-cache-5.1.0.tgz#b1c67ecc59beb2e59acce6e2078d4ef35ac855b2"
+  integrity sha512-G81MF9XCQdmyZWgTkZa09rBusXNXhvjPMDjP4cfOpr8g1DEvEsxskEGT08f22hvl9Fg+G2wlVXBsHPLEr798Lg==
   dependencies:
     "@graphql-tools/utils" "^10.0.0"
     "@whatwg-node/fetch" "^0.9.0"
     fast-json-stable-stringify "^2.1.0"
-    lru-cache "^9.1.1"
+    lru-cache "^10.0.0"
     tslib "^2.5.0"
 
 "@envelop/types@4.0.0":
@@ -272,12 +272,12 @@
   dependencies:
     tslib "^2.5.2"
 
-"@graphql-yoga/plugin-response-cache@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-2.0.2.tgz#df88f0307502ca886347e6defdda63a89ba177d0"
-  integrity sha512-bRODDqY9oC8p/UWDuqINBGVaJiEBFlsRTshXk+EhVVBu5s/5IZY6JIwLW0GgMyR2uskf0lQKsuTnpJquzBi0xg==
+"@graphql-yoga/plugin-response-cache@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-2.1.0.tgz#3e14d725577365dd76b7a6dca0c4f0f107b656e2"
+  integrity sha512-QMmVL5Sx2mEQ6pejj0pQ6F2QcfIiMYibE1xSdhWAJkDfQlImAcd3uv1smMBbUMp3GNRF3vs1K5SpIzX/UHva4g==
   dependencies:
-    "@envelop/response-cache" "^5.0.0"
+    "@envelop/response-cache" "^5.1.0"
 
 "@graphql-yoga/subscription@^4.0.0":
   version "4.0.0"
@@ -1241,7 +1241,12 @@ json-schema-traverse@^1.0.0:
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz#ae7bcb3656ab77a73ba5c49bf654f38e6b6860e2"
   integrity sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
 
-lru-cache@^9.0.0, lru-cache@^9.1.1:
+lru-cache@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.0.tgz#b9e2a6a72a129d81ab317202d93c7691df727e61"
+  integrity sha512-svTf/fzsKHffP42sujkO/Rjs37BCIsQVRCeNYIm9WN8rgT7ffoUnRtZCqU+6BqcSBdv8gwJeTz8knJpgACeQMw==
+
+lru-cache@^9.0.0:
   version "9.1.2"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-9.1.2.tgz#255fdbc14b75589d6d0e73644ca167a8db506835"
   integrity sha512-ERJq3FOzJTxBbFjZ7iDs+NiK4VI9Wz+RdrrAB8dio1oV+YvdPzUEE4QNiT2VD51DkIbCYRUUzCRkssXCHqSnKQ==
