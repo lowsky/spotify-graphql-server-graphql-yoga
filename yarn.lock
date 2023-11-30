@@ -258,10 +258,10 @@
   dependencies:
     tslib "^2.5.2"
 
-"@graphql-yoga/plugin-response-cache@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-3.1.0.tgz#5b6d6c221ce6c97ddabff77c7c87bccd7c65375e"
-  integrity sha512-//7FiKuCjPQeIeFCH8kAnPk+UCP2M4hz1qIaCN8sfdMjr2xlyo3B2goEt6VTyeh/BHnY47qRuZ5t7PYJo50j5g==
+"@graphql-yoga/plugin-response-cache@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-3.1.1.tgz#5e648c8e7642c7aa28c9d62af3f704031deb16e3"
+  integrity sha512-N4pimUFmwICu9jlbTF75r2M12o0L4eToAvat8PVDQXoAIegdoh5RL0IpKWU2siajLbovjYI/KiLPro1/svDX+g==
   dependencies:
     "@envelop/response-cache" "^6.1.0"
 
