@@ -1,4 +1,5 @@
 import { makeExecutableSchema } from "@graphql-tools/schema"
+import DataLoader from 'dataloader';
 
 import { fetchAlbumsOfArtist, fetchArtistsByName } from "./resolvers";
 
@@ -31,14 +32,31 @@ type Track {
 }
 `;
 
+interface Loaders {
+  albumByArtistLoader: DataLoader<string, any>
+}
+
+export interface Context {
+  loaders: Loaders;
+}
+
+export const createContext = (): Context => (
+  {
+    loaders: {
+      albumByArtistLoader: new DataLoader((ids: readonly string[]) => {
+        return Promise.all(ids.map((id) => fetchAlbumsOfArtist((id))));
+      })
+    }
+  });
+
 export const resolvers = {
   Query: {
     hi: () => 'Hello Hello Hello',
-    queryArtists: async (_parent:any, { byName }: { byName: string }) => fetchArtistsByName(byName)
+    queryArtists: async (_parent: any, {byName}: { byName: string }) => fetchArtistsByName(byName)
   },
   Artist: {
-    albums: async (parent: { id: string }) => {
-      return fetchAlbumsOfArtist(parent.id);
+    albums: async (parent: { id: string }, _args: any, ctx: Context) => {
+      return ctx.loaders.albumByArtistLoader.load(parent.id);
     }
   }
 };
