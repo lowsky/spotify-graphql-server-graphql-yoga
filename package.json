@@ -18,7 +18,7 @@
   "dependencies": {
     "@envelop/core": "5.0.0",
     "@graphql-tools/mock": "9.0.2",
-    "@graphql-yoga/plugin-response-cache": "3.3.0",
+    "@graphql-yoga/plugin-response-cache": "3.4.0",
     "@whatwg-node/fetch": "0.9.17",
     "cors": "2.8.5",
     "dataloader": "2.2.2",
