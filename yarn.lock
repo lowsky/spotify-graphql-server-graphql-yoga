@@ -497,10 +497,10 @@
     "@types/mime" "^1"
     "@types/node" "*"
 
-"@vercel/build-utils@7.7.0":
-  version "7.7.0"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-7.7.0.tgz#a3b38b60025013f71d567a5ee4ba677a67fe6818"
-  integrity sha512-dYE0QKnRj9tN1F2AAKHagh3QkgQhz7AWcrRqnp5gjEp74EnxBKJIcZe5qqyKANMCLQ1e96RYy1pQB3zPMGeEzg==
+"@vercel/build-utils@7.9.1":
+  version "7.9.1"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-7.9.1.tgz#b55180aa0ac5e88a9754152f7b09b74098c590a4"
+  integrity sha512-yqbP7d8oLAGkh5iy9/Vu1c0+s5jLFK56QHEZlkj1lY3t3OQ+7dsAi0oUP/gv8YxtUYwMDfeYSqZr/4cNhnSBsg==
 
 "@vercel/error-utils@2.0.2":
   version "2.0.2"
@@ -525,16 +525,16 @@
     node-gyp-build "^4.2.2"
     resolve-from "^5.0.0"
 
-"@vercel/node@3.0.20":
-  version "3.0.20"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-3.0.20.tgz#be345d5cbbe190fe9652d947f988228b746d1d28"
-  integrity sha512-J6EqkFczKJyLZFoMv863vBMsqJndisK4fQ6yz41VsBp5bfUo6v3KjNa5miRnLjeKUhrQYGbGQLG89Q6wO1jBVQ==
+"@vercel/node@3.0.24":
+  version "3.0.24"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-3.0.24.tgz#84a05c63be1421806cde7e237d5c050bacc6f661"
+  integrity sha512-2EbC6zsoaj2HH97BZYdkqHNeQ3gpcsETHXySSslkylU1uTAZU5i4c+Ze+RIinVkk7P+DVv4XzDK6xaSHvkXkGA==
   dependencies:
     "@edge-runtime/node-utils" "2.3.0"
     "@edge-runtime/primitives" "4.1.0"
     "@edge-runtime/vm" "3.2.0"
     "@types/node" "14.18.33"
-    "@vercel/build-utils" "7.7.0"
+    "@vercel/build-utils" "7.9.1"
     "@vercel/error-utils" "2.0.2"
     "@vercel/nft" "0.26.4"
     "@vercel/static-config" "3.0.0"
