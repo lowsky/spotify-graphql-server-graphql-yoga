@@ -36,7 +36,7 @@
   dependencies:
     "@edge-runtime/primitives" "4.1.0"
 
-"@envelop/core@5.0.2":
+"@envelop/core@5.0.2", "@envelop/core@^5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.0.2.tgz#f9649c72e66d78b55aafa0d2d2cfa5f9c3bfc127"
   integrity sha512-tVL6OrMe6UjqLosiE+EH9uxh2TQC0469GwF4tE014ugRaDDKKVWwFwZe0TBMlcyHKh5MD4ZxktWo/1hqUxIuhw==
@@ -329,11 +329,12 @@
   dependencies:
     tslib "^2.5.2"
 
-"@graphql-yoga/plugin-response-cache@3.12.3":
-  version "3.12.3"
-  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-3.12.3.tgz#dab41120301993b91382a7116baad890f6333280"
-  integrity sha512-hhLQ0YbrS1VBfRGFocuR7UFTO7Tghnl90kUBTwZ5517VfyoUIoR7+kEkJjEt2nJS1jUxK/Mwu0FGnsHLeKANtg==
+"@graphql-yoga/plugin-response-cache@3.12.4":
+  version "3.12.4"
+  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-3.12.4.tgz#72b4093b43450de1c3f41e93db8edc4177bb7a2f"
+  integrity sha512-Qyyd62n0YUwS4zZlmTrZVpRpBqmCkoJWrJtOfjOPCNl/crg9dDl1cRuH8tTIFfzniyg7PtlOzqU0AFZVsR4VsQ==
   dependencies:
+    "@envelop/core" "^5.0.2"
     "@envelop/response-cache" "^6.1.2"
 
 "@graphql-yoga/subscription@^5.0.1":
