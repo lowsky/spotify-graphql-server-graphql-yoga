@@ -16,7 +16,7 @@
     "start": "npm run build ; tsx -r dotenv/config serverInit.ts"
   },
   "dependencies": {
-    "@envelop/core": "5.0.2",
+    "@envelop/core": "5.0.3",
     "@graphql-tools/mock": "9.0.14",
     "@graphql-yoga/plugin-response-cache": "3.12.9",
     "@whatwg-node/fetch": "0.10.3",
