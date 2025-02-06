@@ -300,10 +300,10 @@
   dependencies:
     tslib "^2.8.1"
 
-"@graphql-yoga/plugin-response-cache@3.12.11":
-  version "3.12.11"
-  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-3.12.11.tgz#eb715ca678092da14f6375dbc953d6c57be59ed7"
-  integrity sha512-VJuzTQiWEecE45SZ3gGII7kPPw1St3aRM1dYqLNoBpffcm7m7ld7CeR8vsqxCg/eIr9PPewEqd35iA82yc8hWA==
+"@graphql-yoga/plugin-response-cache@3.13.0":
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-3.13.0.tgz#06a940fb6017881837d5162ea992e59f375a85c7"
+  integrity sha512-FRdx9DdcIV+YJF10r8S66gb36nDdAGBS1g60ckLUH94x0zzhmjrRzHyiC8qRUuCs+WhQ/T7oM0xORolKK6CZlQ==
   dependencies:
     "@envelop/core" "^5.0.2"
     "@envelop/response-cache" "^6.1.2"
@@ -1579,10 +1579,10 @@ graceful-fs@^4.2.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-graphql-yoga@5.10.11:
-  version "5.10.11"
-  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-5.10.11.tgz#4c9e4d8c3186c2a323a97982aa80b99769ed8953"
-  integrity sha512-r4Mg6nXIqvAh6IO82JlJNJOAL1MADKZsesytsBw/qvuYdE7vyo3PNCHMleBoWj3dzx83aRajBQQNh3WzBmsy8g==
+graphql-yoga@5.11.0:
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-5.11.0.tgz#d8e87cc9a5a26e52defd1275ea4bb9c5235fbf94"
+  integrity sha512-zyeXE79hKBzEvb/jYK3bnouoPsNNtv+pyNR6BeMHyeGmavimSvi1LH3vqSlh1sjxUTMXZu715X0L4T8RrexCcA==
   dependencies:
     "@envelop/core" "^5.0.2"
     "@graphql-tools/executor" "^1.3.7"
