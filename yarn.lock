@@ -36,14 +36,14 @@
   dependencies:
     "@edge-runtime/primitives" "4.1.0"
 
-"@envelop/core@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.2.0.tgz#f12532217f92c9b675b6ec07f225b48b12ab76b0"
-  integrity sha512-JMrISsiZ4XQXMtJhs5K4MtM64zFfPHAmpWrkLt+d7d3UC4W39rQu9+4ba3kTV9MyohNr39+wfjBdTa13rKTbjA==
+"@envelop/core@5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.2.1.tgz#c7e27112523c5f5560aaf48f9d6806adba924b94"
+  integrity sha512-iH/GUc7WNEukD2TKszx+e5MWuCpUuVfc1eS4mSvDpQ2ROA2lCJGqac6PxAC3A171bLqNk7IWlNOXxJ4qUPU1WA==
   dependencies:
     "@envelop/instruments" "^1.0.0"
     "@envelop/types" "^5.2.0"
-    "@whatwg-node/promise-helpers" "^1.0.0"
+    "@whatwg-node/promise-helpers" "^1.2.1"
     tslib "^2.5.0"
 
 "@envelop/core@^5.2.1":
