@@ -36,7 +36,7 @@
   dependencies:
     "@edge-runtime/primitives" "4.1.0"
 
-"@envelop/core@5.2.3":
+"@envelop/core@5.2.3", "@envelop/core@^5.2.3":
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.2.3.tgz#ede1dd20b4397c7465ae2190e718829303bcef00"
   integrity sha512-KfoGlYD/XXQSc3BkM1/k15+JQbkQ4ateHazeZoWl9P71FsLTDXSjGy6j7QqfhpIDSbxNISqhPMfZHYSbDFOofQ==
@@ -44,16 +44,6 @@
     "@envelop/instrumentation" "^1.0.0"
     "@envelop/types" "^5.2.1"
     "@whatwg-node/promise-helpers" "^1.2.4"
-    tslib "^2.5.0"
-
-"@envelop/core@^5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.2.1.tgz#c7e27112523c5f5560aaf48f9d6806adba924b94"
-  integrity sha512-iH/GUc7WNEukD2TKszx+e5MWuCpUuVfc1eS4mSvDpQ2ROA2lCJGqac6PxAC3A171bLqNk7IWlNOXxJ4qUPU1WA==
-  dependencies:
-    "@envelop/instruments" "^1.0.0"
-    "@envelop/types" "^5.2.0"
-    "@whatwg-node/promise-helpers" "^1.2.1"
     tslib "^2.5.0"
 
 "@envelop/instrumentation@^1.0.0":
@@ -64,31 +54,16 @@
     "@whatwg-node/promise-helpers" "^1.2.1"
     tslib "^2.5.0"
 
-"@envelop/instruments@1.0.0", "@envelop/instruments@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@envelop/instruments/-/instruments-1.0.0.tgz#7e36926b6212048258ce1939bcf5a52e2a5dbe4d"
-  integrity sha512-f4lHoti7QgUIluIGTM0mG9Wf9/w6zc1mosYmyFkrApeHSP2PIUC6a8fMoqkdk6pgVOps39kLdIhOPF8pIKS8/A==
-  dependencies:
-    "@whatwg-node/promise-helpers" "^1.2.1"
-    tslib "^2.5.0"
-
-"@envelop/response-cache@^7.1.1":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@envelop/response-cache/-/response-cache-7.1.1.tgz#911d1be066afa0ddc25f53dd5f6ec91c3ee01c01"
-  integrity sha512-V4xIT2GdB31DiJezmoeVkEiWfQs3eaIO7qSOFnCYMwDoF3yFy2qd8WUoCLkMZLRQYGsWxyZO5Pz+Qv5otc9+Lg==
+"@envelop/response-cache@^7.1.3":
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@envelop/response-cache/-/response-cache-7.1.3.tgz#9250b296ca53cc4dda743ad5be52a16cc8307200"
+  integrity sha512-Vqx0BhCXxxtT63ST+xbGXa+fWqluFckIxVSoDx6+1yY/dA+J86nwUcNuFf4BYQDtewehaxGJ8qs5kuZFPEhwuw==
   dependencies:
     "@graphql-tools/utils" "^10.0.3"
     "@whatwg-node/fetch" "^0.10.0"
+    "@whatwg-node/promise-helpers" "^1.2.4"
     fast-json-stable-stringify "^2.1.0"
     lru-cache "^10.0.0"
-    tslib "^2.5.0"
-
-"@envelop/types@^5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@envelop/types/-/types-5.2.0.tgz#a485749ddc846343a26b16ebff5436fb5ca3a6fa"
-  integrity sha512-vCJY6URc8bK1O6p4zVRFpv/ASdyXvLM+Iqn2HP44UfTgEUQLyN4buwLawlkAv/KtzAL7VOeefpF2eKPWk7rHjg==
-  dependencies:
-    "@whatwg-node/promise-helpers" "^1.0.0"
     tslib "^2.5.0"
 
 "@envelop/types@^5.2.1":
@@ -344,13 +319,14 @@
   dependencies:
     tslib "^2.8.1"
 
-"@graphql-yoga/plugin-response-cache@3.15.0":
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-3.15.0.tgz#bf2aae72cb58db0784b5627b6721988437d09a67"
-  integrity sha512-jixCq8RAmfjIQNoOobY2PW3YBAmtvc99gzooO7pJEcZfI0N2pR5pkETrT6TYepoZ/hNNinj16bSPKHRI2QtriA==
+"@graphql-yoga/plugin-response-cache@3.15.3":
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-3.15.3.tgz#b4e33674b55bbc06baa1e76f53097f3f4b927616"
+  integrity sha512-BHvrubkJZdIhjMaXHhT0oNpizx5uZKGyzbUC9S8gdWHI3Go/Iftbuw2XURASVHyDEsONwpWmz6/VkS6qUXyPCQ==
   dependencies:
-    "@envelop/core" "^5.2.1"
-    "@envelop/response-cache" "^7.1.1"
+    "@envelop/core" "^5.2.3"
+    "@envelop/response-cache" "^7.1.3"
+    "@whatwg-node/promise-helpers" "^1.2.4"
 
 "@graphql-yoga/subscription@^5.0.3":
   version "5.0.3"
@@ -816,12 +792,12 @@
   dependencies:
     tslib "^2.6.3"
 
-"@whatwg-node/server@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@whatwg-node/server/-/server-0.10.0.tgz#a4f91a588dd2c543a76b20fefb05283419122655"
-  integrity sha512-o+FrEtUgozt6d2Dw4WB5t8I4gx6wAmhsznYcg6UAOy1FUutJcs4+KCLKhUv/L2bt+A9On9jPAtLtrvj3hAj+iQ==
+"@whatwg-node/server@^0.10.1":
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@whatwg-node/server/-/server-0.10.3.tgz#d4943980b1e35b3ae413d43b1413ad509dd75a1f"
+  integrity sha512-2Dnfey57vWR+hDUMjPhNzJQc9z116BBzSQwR9eD0vhnzYmN2rJXuY0QuMaHDCCqEZRmFHg2bo8iJ+/1uHOlxpg==
   dependencies:
-    "@envelop/instruments" "1.0.0"
+    "@envelop/instrumentation" "^1.0.0"
     "@whatwg-node/disposablestack" "^0.0.6"
     "@whatwg-node/fetch" "^0.10.5"
     "@whatwg-node/promise-helpers" "^1.2.3"
@@ -1621,13 +1597,13 @@ graceful-fs@^4.2.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-graphql-yoga@5.13.0:
-  version "5.13.0"
-  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-5.13.0.tgz#f4a97fd57026120d5a1e711485c165debf81c153"
-  integrity sha512-O9pdML91COjqltKOgtiKsSt9bs4d9QVRd7kVP6mQiVJyIGaoaX875YA8mFYLAwYJOfFev4+RDLphCHmEIY/isw==
+graphql-yoga@5.13.2:
+  version "5.13.2"
+  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-5.13.2.tgz#015c2c038c51b5da55e114a12b72cd152185ba33"
+  integrity sha512-ZXhIoAPCV2K2ozwpxDL1ZXhhI2SvIp3hJMaSRaHcojLGE9w9iV8oYGPnZKcV5eisF3VE13RcIF4Ys6TTkU338Q==
   dependencies:
-    "@envelop/core" "^5.2.1"
-    "@envelop/instruments" "^1.0.0"
+    "@envelop/core" "^5.2.3"
+    "@envelop/instrumentation" "^1.0.0"
     "@graphql-tools/executor" "^1.4.0"
     "@graphql-tools/schema" "^10.0.11"
     "@graphql-tools/utils" "^10.6.2"
@@ -1635,7 +1611,7 @@ graphql-yoga@5.13.0:
     "@graphql-yoga/subscription" "^5.0.3"
     "@whatwg-node/fetch" "^0.10.5"
     "@whatwg-node/promise-helpers" "^1.2.4"
-    "@whatwg-node/server" "^0.10.0"
+    "@whatwg-node/server" "^0.10.1"
     dset "^3.1.4"
     lru-cache "^10.0.0"
     tslib "^2.8.1"
