@@ -18,14 +18,14 @@
   "dependencies": {
     "@envelop/core": "5.2.3",
     "@graphql-tools/mock": "9.0.22",
-    "@graphql-yoga/plugin-response-cache": "3.15.0",
+    "@graphql-yoga/plugin-response-cache": "3.15.3",
     "@whatwg-node/fetch": "0.10.5",
     "cors": "2.8.5",
     "dataloader": "2.2.3",
     "dotenv": "16.4.7",
     "express": "4.21.2",
     "graphql": "16.10.0",
-    "graphql-yoga": "5.13.0",
+    "graphql-yoga": "5.13.2",
     "sass": "1.86.0",
     "typescript": "5.8.2"
   },
