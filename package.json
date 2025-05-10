@@ -19,7 +19,7 @@
     "@envelop/core": "5.2.3",
     "@graphql-tools/mock": "9.0.22",
     "@graphql-yoga/plugin-response-cache": "3.15.5",
-    "@whatwg-node/fetch": "0.10.6",
+    "@whatwg-node/fetch": "0.10.7",
     "cors": "2.8.5",
     "dataloader": "2.2.3",
     "dotenv": "16.5.0",
