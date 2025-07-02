@@ -36,7 +36,7 @@
   dependencies:
     "@edge-runtime/primitives" "4.1.0"
 
-"@envelop/core@5.3.0":
+"@envelop/core@5.3.0", "@envelop/core@^5.3.0":
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.3.0.tgz#ee666caa94dc2fdcb00c9659cfc06775ff95faa1"
   integrity sha512-xvUkOWXI8JsG2OOnqiI2tOkEc52wbmIqWORr7yGc8B8E53Oh1MMGGGck4mbR80s25LnHVzfNIiIlNkuDgZRuuA==
@@ -50,16 +50,6 @@
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.2.3.tgz#ede1dd20b4397c7465ae2190e718829303bcef00"
   integrity sha512-KfoGlYD/XXQSc3BkM1/k15+JQbkQ4ateHazeZoWl9P71FsLTDXSjGy6j7QqfhpIDSbxNISqhPMfZHYSbDFOofQ==
-  dependencies:
-    "@envelop/instrumentation" "^1.0.0"
-    "@envelop/types" "^5.2.1"
-    "@whatwg-node/promise-helpers" "^1.2.4"
-    tslib "^2.5.0"
-
-"@envelop/core@^5.3.0":
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.3.0.tgz#ee666caa94dc2fdcb00c9659cfc06775ff95faa1"
-  integrity sha512-xvUkOWXI8JsG2OOnqiI2tOkEc52wbmIqWORr7yGc8B8E53Oh1MMGGGck4mbR80s25LnHVzfNIiIlNkuDgZRuuA==
   dependencies:
     "@envelop/instrumentation" "^1.0.0"
     "@envelop/types" "^5.2.1"
@@ -622,10 +612,10 @@
     "@types/range-parser" "*"
     "@types/send" "*"
 
-"@types/express@5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@types/express/-/express-5.0.2.tgz#7be9e337a5745d6b43ef5b0c352dad94a7f0c256"
-  integrity sha512-BtjL3ZwbCQriyb0DGw+Rt12qAXPiBTPs815lsUvtt1Grk0vLRMZNMUZ741d5rjk+UQOxfDiBZ3dxpX00vSkK3g==
+"@types/express@5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-5.0.3.tgz#6c4bc6acddc2e2a587142e1d8be0bce20757e956"
+  integrity sha512-wGA0NX93b19/dZC1J18tKWVIYWyyF2ZjT9vin/NRu0qzzvfVzWjs04iq2rQ3H65vCTQYlRqs3YHfY7zjdV+9Kw==
   dependencies:
     "@types/body-parser" "*"
     "@types/express-serve-static-core" "^5.0.0"
