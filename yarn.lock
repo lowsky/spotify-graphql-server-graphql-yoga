@@ -36,7 +36,7 @@
   dependencies:
     "@edge-runtime/primitives" "4.1.0"
 
-"@envelop/core@5.3.0":
+"@envelop/core@5.3.0", "@envelop/core@^5.3.0":
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.3.0.tgz#ee666caa94dc2fdcb00c9659cfc06775ff95faa1"
   integrity sha512-xvUkOWXI8JsG2OOnqiI2tOkEc52wbmIqWORr7yGc8B8E53Oh1MMGGGck4mbR80s25LnHVzfNIiIlNkuDgZRuuA==
@@ -50,16 +50,6 @@
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.2.3.tgz#ede1dd20b4397c7465ae2190e718829303bcef00"
   integrity sha512-KfoGlYD/XXQSc3BkM1/k15+JQbkQ4ateHazeZoWl9P71FsLTDXSjGy6j7QqfhpIDSbxNISqhPMfZHYSbDFOofQ==
-  dependencies:
-    "@envelop/instrumentation" "^1.0.0"
-    "@envelop/types" "^5.2.1"
-    "@whatwg-node/promise-helpers" "^1.2.4"
-    tslib "^2.5.0"
-
-"@envelop/core@^5.3.0":
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.3.0.tgz#ee666caa94dc2fdcb00c9659cfc06775ff95faa1"
-  integrity sha512-xvUkOWXI8JsG2OOnqiI2tOkEc52wbmIqWORr7yGc8B8E53Oh1MMGGGck4mbR80s25LnHVzfNIiIlNkuDgZRuuA==
   dependencies:
     "@envelop/instrumentation" "^1.0.0"
     "@envelop/types" "^5.2.1"
@@ -651,10 +641,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.11.tgz#cbb15c12ca7c16c85a72b6bdc4d4b01151bb3cae"
   integrity sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==
 
-"@types/node@22.16.0":
-  version "22.16.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.16.0.tgz#352bc4951fd089df32f2b6412a61d339b67ded8b"
-  integrity sha512-B2egV9wALML1JCpv3VQoQ+yesQKAmNMBIAY7OteVrikcOcAkWm+dGL6qpeCktPjAv6N1JLnhbNiqS35UpFyBsQ==
+"@types/node@22.16.3":
+  version "22.16.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.16.3.tgz#006f83d80e6f05f65768acc77f4a57bfac1d545f"
+  integrity sha512-sr4Xz74KOUeYadexo1r8imhRtlVXcs+j3XK3TcoiYk7B1t3YRVJgtaD3cwX73NYb71pmVuMLNRhJ9XKdoDB74g==
   dependencies:
     undici-types "~6.21.0"
 
