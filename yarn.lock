@@ -1622,10 +1622,10 @@ graceful-fs@^4.2.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-graphql-yoga@5.15.2:
-  version "5.15.2"
-  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-5.15.2.tgz#f44fcd0b06936a6e95b4d375da8786124281f2f2"
-  integrity sha512-8cAdS1HNz5XRfYwr+t3jPP9KTyws1G0fYYaLZ5kgqXbcDJLhGjF1RVL21qL86g+DdmNi7uR+g4R+Zgzz6GBAzw==
+graphql-yoga@5.16.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-5.16.0.tgz#2c95fb61ae97b17342db319940d363ada26bc4c4"
+  integrity sha512-/R2dJea7WgvNlXRU4F8iFwWd95Qn1mN+R+yC8XBs1wKjUzr0Pvv8cGYtt6UUcVHw5CiDEtu7iQY5oOe3sDAWCQ==
   dependencies:
     "@envelop/core" "^5.3.0"
     "@envelop/instrumentation" "^1.0.0"
