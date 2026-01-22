@@ -20,7 +20,7 @@
     "@graphql-tools/mock": "9.0.25",
     "@graphql-yoga/plugin-response-cache": "3.18.2",
     "@whatwg-node/fetch": "0.10.13",
-    "cors": "2.8.5",
+    "cors": "2.8.6",
     "dataloader": "2.2.3",
     "dotenv": "17.2.3",
     "express": "5.2.1",
