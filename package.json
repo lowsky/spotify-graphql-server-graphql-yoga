@@ -24,7 +24,7 @@
     "dataloader": "2.2.3",
     "dotenv": "17.4.2",
     "express": "5.2.1",
-    "graphql": "17.0.1",
+    "graphql": "17.0.2",
     "graphql-yoga": "5.21.2",
     "sass": "1.101.0",
     "typescript": "6.0.3"
