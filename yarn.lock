@@ -49,6 +49,16 @@
     "@whatwg-node/promise-helpers" "^1.2.4"
     tslib "^2.5.0"
 
+"@envelop/core@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.6.0.tgz#d195e1ab5257b1f8bb74029ea7336833d2f740e0"
+  integrity sha512-cD7HNfAzJVw/0Pxneu51UAKzUGLvkctk9rr9DVJ9b7FDe4nSa9kAGMRxx145H6ooELIUMjTd2buk3PuvjJmp/A==
+  dependencies:
+    "@envelop/instrumentation" "^1.0.0"
+    "@envelop/types" "^5.2.1"
+    "@whatwg-node/promise-helpers" "^1.2.4"
+    tslib "^2.5.0"
+
 "@envelop/instrumentation@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@envelop/instrumentation/-/instrumentation-1.0.0.tgz#43268392e065d8ba975cacbdf4fc297dfe3e11e5"
@@ -57,12 +67,12 @@
     "@whatwg-node/promise-helpers" "^1.2.1"
     tslib "^2.5.0"
 
-"@envelop/response-cache@^9.1.1":
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/@envelop/response-cache/-/response-cache-9.1.1.tgz#4529e97f588e27f7c6deef8391174beda496a9f2"
-  integrity sha512-TNViwHbLpXZ7/Tw1awNue7A+72nAHYIYAs3HBjI6lsKWTXW8kwH3VuNFwBXB0x0D0DpRg1S/gzL3XNF4rBWc6g==
+"@envelop/response-cache@^9.2.0":
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/@envelop/response-cache/-/response-cache-9.2.0.tgz#240966bb0dc300b1a55220a00a01592e85d8bc51"
+  integrity sha512-EdKhfSF9xh9zyft/g8GokbKXomrb4RZjCD58TSaoiRzTrwFI+ncnYHj3MRlkDP+Zb1O8cR+bCmXkdKZ+ZtArWQ==
   dependencies:
-    "@graphql-tools/utils" "^11.0.0"
+    "@graphql-tools/utils" "^11.2.0"
     "@whatwg-node/fetch" "^0.10.0"
     "@whatwg-node/promise-helpers" "^1.2.4"
     fast-json-stable-stringify "^2.1.0"
@@ -564,7 +574,7 @@
     cross-inspect "1.0.1"
     tslib "^2.4.0"
 
-"@graphql-tools/utils@^11.2.2":
+"@graphql-tools/utils@^11.2.0", "@graphql-tools/utils@^11.2.2":
   version "11.2.2"
   resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-11.2.2.tgz#5e2c8458dc31d856c94cab0a02aabfd9a5e6e616"
   integrity sha512-Do2A/t6ayqOma8m7PvpYMsCBswL+NB35BQSng4GWSBqafL2/BnfAZy/NSENPwV721Rm2fG0BHETFC0+FJJZmLw==
@@ -591,13 +601,13 @@
   dependencies:
     tslib "^2.8.1"
 
-"@graphql-yoga/plugin-response-cache@3.23.2":
-  version "3.23.2"
-  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-3.23.2.tgz#d13170fa03ae278d5860ceea61766b40220c7848"
-  integrity sha512-juMAA4I5gkKYRFr6uaAbNhi6smc9Y3He2CrtNIaZ2uFlpIbmwTVjeDFGTu4xq4RUUUswh/E8LU4JqJEyYnul2Q==
+"@graphql-yoga/plugin-response-cache@3.24.0":
+  version "3.24.0"
+  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-3.24.0.tgz#620e0c55e6a904f6c0d1256881f0bca04bd555de"
+  integrity sha512-N7st74si3C9ndHPpy224NvbwxccUEQqvkiOPhSJMYJ17hwZFCH0l6TUh0yLydzMjrT+LGym0n088Gy+SyqA90Q==
   dependencies:
-    "@envelop/core" "^5.5.1"
-    "@envelop/response-cache" "^9.1.1"
+    "@envelop/core" "^5.6.0"
+    "@envelop/response-cache" "^9.2.0"
     "@whatwg-node/promise-helpers" "^1.3.2"
 
 "@graphql-yoga/subscription@^5.0.5":
