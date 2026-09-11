@@ -590,10 +590,10 @@
     "@envelop/response-cache" "^9.2.0"
     "@whatwg-node/promise-helpers" "^1.3.2"
 
-"@graphql-yoga/subscription@^5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@graphql-yoga/subscription/-/subscription-5.0.5.tgz#55e1dc472de866185d7c122e2c534023a331f65c"
-  integrity sha512-oCMWOqFs6QV96/NZRt/ZhTQvzjkGB4YohBOpKM4jH/lDT4qb7Lex/aGCxpi/JD9njw3zBBtMqxbaC22+tFHVvw==
+"@graphql-yoga/subscription@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@graphql-yoga/subscription/-/subscription-5.1.0.tgz#070526b777d96e4a9d93cfa9089bdfaa49293641"
+  integrity sha512-cQ7rUdaVgnktmF98zg52O3qYbrTqqv4+ZyodVUz5smKYSr4qLUBzJSs5b/rA+mQC8FbOT1NvDy4hxBIIvxx6qg==
   dependencies:
     "@graphql-yoga/typed-event-target" "^3.0.2"
     "@repeaterjs/repeater" "^3.0.4"
@@ -1983,10 +1983,10 @@ graceful-fs@^4.2.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-graphql-yoga@5.22.0:
-  version "5.22.0"
-  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-5.22.0.tgz#d13b67dcf6940369657d6ed29ba76de4e136bc24"
-  integrity sha512-RTMS9WfDJQdYT1VRwDQ34Q9zFvuD3PZXBEDedNdUuoeNsJ6jZBwPo5PhdExzkR+s5iwf8MoiGJOS5Byt/PNAZg==
+graphql-yoga@5.23.0:
+  version "5.23.0"
+  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-5.23.0.tgz#e9189818daf874161217b4e018b3777bf14d211b"
+  integrity sha512-TsgX8y4oXY6oPrzHEyYci7cFprkZ2VuwNvlZN/52PwlBGbUOm6Ewmgwhe1e1HX/b4/SzG89e/BHoGBVvMBlGMQ==
   dependencies:
     "@envelop/core" "^5.6.0"
     "@envelop/instrumentation" "^1.0.0"
@@ -1994,7 +1994,7 @@ graphql-yoga@5.22.0:
     "@graphql-tools/schema" "^10.0.11"
     "@graphql-tools/utils" "^11.2.0"
     "@graphql-yoga/logger" "^2.0.1"
-    "@graphql-yoga/subscription" "^5.0.5"
+    "@graphql-yoga/subscription" "^5.1.0"
     "@whatwg-node/fetch" "^0.10.6"
     "@whatwg-node/promise-helpers" "^1.3.2"
     "@whatwg-node/server" "^0.11.0"
