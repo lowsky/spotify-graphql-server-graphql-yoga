@@ -29,7 +29,17 @@
   dependencies:
     "@edge-runtime/primitives" "4.1.0"
 
-"@envelop/core@5.6.0", "@envelop/core@^5.6.0":
+"@envelop/core@5.6.1":
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.6.1.tgz#a3c8941786f3cd6e2835de788d982f8f986d03be"
+  integrity sha512-KEbJ7yrAA+W7IY9MZzpZJ77w/72ndaV/16+hhPapd+0Ohjqffl0mmF3QWy62/m3nRP4qidD+1eiEjJhS/O38Tg==
+  dependencies:
+    "@envelop/instrumentation" "^1.0.1"
+    "@envelop/types" "^5.2.2"
+    "@whatwg-node/promise-helpers" "^1.2.4"
+    tslib "^2.5.0"
+
+"@envelop/core@^5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.6.0.tgz#d195e1ab5257b1f8bb74029ea7336833d2f740e0"
   integrity sha512-cD7HNfAzJVw/0Pxneu51UAKzUGLvkctk9rr9DVJ9b7FDe4nSa9kAGMRxx145H6ooELIUMjTd2buk3PuvjJmp/A==
@@ -43,6 +53,14 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@envelop/instrumentation/-/instrumentation-1.0.0.tgz#43268392e065d8ba975cacbdf4fc297dfe3e11e5"
   integrity sha512-cxgkB66RQB95H3X27jlnxCRNTmPuSTgmBAq6/4n2Dtv4hsk4yz8FadA1ggmd0uZzvKqWD6CR+WFgTjhDqg7eyw==
+  dependencies:
+    "@whatwg-node/promise-helpers" "^1.2.1"
+    tslib "^2.5.0"
+
+"@envelop/instrumentation@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@envelop/instrumentation/-/instrumentation-1.0.1.tgz#f3898d55b955f5561502e98bd05e3cc38af19e50"
+  integrity sha512-FuexE2qd3Yc1Kh1DjTliwGxb9kyyv4ySBNnfJOxnQasVmGdcqX6AkkO5sIMxLWFRftp8PErOcIn2dQW/1RwytQ==
   dependencies:
     "@whatwg-node/promise-helpers" "^1.2.1"
     tslib "^2.5.0"
@@ -63,6 +81,14 @@
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@envelop/types/-/types-5.2.1.tgz#6bc9713f2aea56d7de3ea39e8bb70035c0475b36"
   integrity sha512-CsFmA3u3c2QoLDTfEpGr4t25fjMU31nyvse7IzWTvb0ZycuPjMjb0fjlheh+PbhBYb9YLugnT2uY6Mwcg1o+Zg==
+  dependencies:
+    "@whatwg-node/promise-helpers" "^1.0.0"
+    tslib "^2.5.0"
+
+"@envelop/types@^5.2.2":
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@envelop/types/-/types-5.2.2.tgz#606abde91a5475f617f490c50e39de197e23a349"
+  integrity sha512-nl9cmUh8F+2/NNzpcLjzNqtaVn0m8XSzzxrPU2ByHhlz4Hqlc5QBfRsemZkoJMKrMviJXyJYdKZiUP1o70F3Kw==
   dependencies:
     "@whatwg-node/promise-helpers" "^1.0.0"
     tslib "^2.5.0"
