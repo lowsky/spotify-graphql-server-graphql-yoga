@@ -22,7 +22,7 @@
     "@whatwg-node/fetch": "0.10.13",
     "cors": "2.8.6",
     "dataloader": "2.2.3",
-    "dotenv": "17.4.2",
+    "dotenv": "18.0.4",
     "express": "5.2.1",
     "graphql": "17.0.2",
     "graphql-yoga": "5.22.0",
