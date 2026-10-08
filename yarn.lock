@@ -493,24 +493,16 @@
   resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-3.1.1.tgz#af3aea7f1e52ec916d8b5c9dcc0f09d4c060a3fc"
   integrity sha512-5DGmA8FTdB2XbDeEwc/5ZXBl6UbBAyBOOLlPuBnZ/N1SwdH9Ii+cOX3tBROlDgcTXxjOYnLMVoKk9+FXAw0CJw==
 
-"@graphql-tools/executor@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/executor/-/executor-2.0.0.tgz#9c65d15c303a943d704a10a69bdef322baf73500"
-  integrity sha512-BjoqO5UfcV3BUqamGtHNm4ITBk040VOmWql/MrUefPo30x6t4v1+engfjgAjWikMsRPLU4ZC6e2QjICLucnOTA==
+"@graphql-tools/executor@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/executor/-/executor-2.0.3.tgz#607677580661630a885a86ca6ca3d8bf20eeb1eb"
+  integrity sha512-0qUCtalTDdanDuvW4EiHnNMct8QHYKTuGjI2lXU388LrpoV+5tlqp/xPqdYbrDtl3OBpZHToOEBcQunWz1UDig==
   dependencies:
-    "@graphql-tools/utils" "^12.0.0"
+    "@graphql-tools/utils" "^12.0.3"
     "@graphql-typed-document-node/core" "^3.2.0"
     "@repeaterjs/repeater" "^3.1.0"
-    "@whatwg-node/disposablestack" "^0.0.6"
-    "@whatwg-node/promise-helpers" "^1.0.0"
-    tslib "^2.4.0"
-
-"@graphql-tools/merge@^9.0.12":
-  version "9.0.12"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/merge/-/merge-9.0.12.tgz#458fc73104bb581faef4336799a5efcc3b440411"
-  integrity sha512-ECkUdgWkizhzQ6JJg16MCYnIN2r2+q/vP5smzi3YeeJkZ/3f9ynFDkaqoMg0Ddg9MugR03hMiQQrssk5f0389Q==
-  dependencies:
-    "@graphql-tools/utils" "^10.6.2"
+    "@whatwg-node/disposablestack" "^0.1.0"
+    "@whatwg-node/promise-helpers" "^2.0.0"
     tslib "^2.4.0"
 
 "@graphql-tools/merge@^9.2.6":
@@ -531,16 +523,6 @@
     fast-json-stable-stringify "^2.1.0"
     tslib "^2.4.0"
 
-"@graphql-tools/schema@^10.0.11":
-  version "10.0.11"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-10.0.11.tgz#ac9f44c41425c5ba0183e13b8a22c6d0d9a39539"
-  integrity sha512-cYr/7SJSKtdwPByTKHlBr0tYGf7/sYNyzKlPhPMHWoYyGxtn8ytbfF6wEUcxuaOoqksIFxOGr+WOJh1WvShb6A==
-  dependencies:
-    "@graphql-tools/merge" "^9.0.12"
-    "@graphql-tools/utils" "^10.6.2"
-    tslib "^2.4.0"
-    value-or-promise "^1.0.12"
-
 "@graphql-tools/schema@^10.1.3":
   version "10.1.3"
   resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-10.1.3.tgz#1dbbb63e7c82054f62371f9d818bc0d1bb226f3b"
@@ -550,30 +532,10 @@
     "@graphql-tools/utils" "^12.0.3"
     tslib "^2.4.0"
 
-"@graphql-tools/utils@^10.6.2":
-  version "10.6.2"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-10.6.2.tgz#2325d9f5c9db1ce97ef6dc763fddc8b637a78dbf"
-  integrity sha512-ABZHTpwiVR8oE2//NI/nnU3nNhbBpqMlMYyCF5cnqjLfhlyOdFfoRuhYEATEsmMfDg0ijGreULywK/SmepVGfw==
-  dependencies:
-    "@graphql-typed-document-node/core" "^3.1.1"
-    cross-inspect "1.0.1"
-    dset "^3.1.2"
-    tslib "^2.4.0"
-
 "@graphql-tools/utils@^11.2.0":
   version "11.2.2"
   resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-11.2.2.tgz#5e2c8458dc31d856c94cab0a02aabfd9a5e6e616"
   integrity sha512-Do2A/t6ayqOma8m7PvpYMsCBswL+NB35BQSng4GWSBqafL2/BnfAZy/NSENPwV721Rm2fG0BHETFC0+FJJZmLw==
-  dependencies:
-    "@graphql-typed-document-node/core" "^3.1.1"
-    "@whatwg-node/promise-helpers" "^1.0.0"
-    cross-inspect "1.0.1"
-    tslib "^2.4.0"
-
-"@graphql-tools/utils@^12.0.0":
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-12.0.0.tgz#d6ea460bc837c6c8f68a55c3920d969641dded36"
-  integrity sha512-aMdIo/l+8j4lhamWAf+MWHr+lOW8zArSBKXspqtKHgt5I2JF9LS55KDLUe/L9AiJOV/O6qJJ60hgYydbnJHbxg==
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.1"
     "@whatwg-node/promise-helpers" "^1.0.0"
@@ -1653,11 +1615,6 @@ dotenv@18.0.5:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-18.0.5.tgz#4fc2c5cd92cf89cdd72c8aa5b82b5a37c0a9a2bf"
   integrity sha512-aBrGvt6KhjxbEnatqMWOMidftwsrCiCvqh1yNIGB9QyF0J+VcWkKDMsvYOEm7ZS82oiV+BT1sTOtIlAmUlTpwQ==
 
-dset@^3.1.2:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/dset/-/dset-3.1.3.tgz#c194147f159841148e8e34ca41f638556d9542d2"
-  integrity sha512-20TuZZHCEZ2O71q9/+8BwKwZ0QtD9D8ObhrihJPr+vLLYlSuAU3/zL4cSlgbfeoGHTjCSJBa7NGcrF9/Bx/WJQ==
-
 dunder-proto@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/dunder-proto/-/dunder-proto-1.0.1.tgz#d7ae667e1dc83482f8b70fd0f6eefc50da30f58a"
@@ -2042,16 +1999,16 @@ graceful-fs@^4.2.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-graphql-yoga@5.24.2:
-  version "5.24.2"
-  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-5.24.2.tgz#fb26ef410205238571c9ff2d0db6d59bd2ebcc2f"
-  integrity sha512-pQoCb4BjDF3ZccHugxm84EQcG4d0qK+r11hFylB4AncvIp1r6PZ450mLRwCv+5c7884/ppPJQPWdnIAIXSCQUA==
+graphql-yoga@5.24.4:
+  version "5.24.4"
+  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-5.24.4.tgz#cebab8d644e398896e3ff1912b83a8b4f75b8acc"
+  integrity sha512-jnpLm2g9BfnP18VKL+Yao8YRQYgDjXdAkFgZso/tnKFcRcAtOeUKLDVc1XnYiE3uooXzfIQzsvpKR+fC3we4QA==
   dependencies:
     "@envelop/core" "^5.6.1"
     "@envelop/instrumentation" "^1.0.1"
-    "@graphql-tools/executor" "^2.0.0"
-    "@graphql-tools/schema" "^10.0.11"
-    "@graphql-tools/utils" "^11.2.0"
+    "@graphql-tools/executor" "^2.0.3"
+    "@graphql-tools/schema" "^10.1.3"
+    "@graphql-tools/utils" "^12.0.3"
     "@graphql-yoga/logger" "^2.0.2"
     "@graphql-yoga/subscription" "^5.1.1"
     "@whatwg-node/fetch" "^0.10.6"
@@ -2924,11 +2881,6 @@ urlpattern-polyfill@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/urlpattern-polyfill/-/urlpattern-polyfill-10.0.0.tgz#f0a03a97bfb03cdf33553e5e79a2aadd22cac8ec"
   integrity sha512-H/A06tKD7sS1O1X2SshBVeA5FLycRpjqiBeqGKmBwBDBy28EnRjORxTNe269KSSr5un5qyWi1iL61wLxpd+ZOg==
-
-value-or-promise@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/value-or-promise/-/value-or-promise-1.0.12.tgz#0e5abfeec70148c78460a849f6b003ea7986f15c"
-  integrity sha512-Z6Uz+TYwEqE7ZN50gwn+1LCVo9ZVrpxRPOhOLnncYkY1ZzOYtrX8Fwf/rFktZ8R5mJms6EZf5TqNOMeZmnPq9Q==
 
 vary@^1, vary@^1.1.2:
   version "1.1.2"
