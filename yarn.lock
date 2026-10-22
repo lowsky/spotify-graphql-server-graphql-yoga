@@ -29,14 +29,14 @@
   dependencies:
     "@edge-runtime/primitives" "4.1.0"
 
-"@envelop/core@5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@envelop/core/-/core-5.6.0.tgz#d195e1ab5257b1f8bb74029ea7336833d2f740e0"
-  integrity sha512-cD7HNfAzJVw/0Pxneu51UAKzUGLvkctk9rr9DVJ9b7FDe4nSa9kAGMRxx145H6ooELIUMjTd2buk3PuvjJmp/A==
+"@envelop/core@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@envelop/core/-/core-6.0.0.tgz#f5d88232dadd5ac7cc8b6e08ab8c86a7ad950042"
+  integrity sha512-r/FPut3JaDJnH64Hn6umeqxlZNMJsFf2IJmZzmv6F1m+Mxfez1zKmKIOOFFO4DRc6ghqqzZMvIH9r2/LVLWxuw==
   dependencies:
-    "@envelop/instrumentation" "^1.0.0"
-    "@envelop/types" "^5.2.1"
-    "@whatwg-node/promise-helpers" "^1.2.4"
+    "@envelop/instrumentation" "^2.0.0"
+    "@envelop/types" "^6.0.0"
+    "@whatwg-node/promise-helpers" "^2.0.0"
     tslib "^2.5.0"
 
 "@envelop/core@^5.6.1":
@@ -65,6 +65,14 @@
     "@whatwg-node/promise-helpers" "^1.2.1"
     tslib "^2.5.0"
 
+"@envelop/instrumentation@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@envelop/instrumentation/-/instrumentation-2.0.0.tgz#893a07fa13089482e456489edbe7c4dff37cd22e"
+  integrity sha512-nXW9DAHfJ7Fh5nTnvr0uDUvCvMw017Agvk3MiE58u8Eby6mTwuiCFp16as2sPVODLLeCBs6rmKs0F1tkpbAXYQ==
+  dependencies:
+    "@whatwg-node/promise-helpers" "^2.0.0"
+    tslib "^2.5.0"
+
 "@envelop/response-cache@^9.3.4":
   version "9.3.4"
   resolved "https://registry.yarnpkg.com/@envelop/response-cache/-/response-cache-9.3.4.tgz#17dc5bdb6d03b4d3153aaceb26137dcced908be4"
@@ -77,20 +85,20 @@
     lru-cache "^11.0.0"
     tslib "^2.5.0"
 
-"@envelop/types@^5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@envelop/types/-/types-5.2.1.tgz#6bc9713f2aea56d7de3ea39e8bb70035c0475b36"
-  integrity sha512-CsFmA3u3c2QoLDTfEpGr4t25fjMU31nyvse7IzWTvb0ZycuPjMjb0fjlheh+PbhBYb9YLugnT2uY6Mwcg1o+Zg==
-  dependencies:
-    "@whatwg-node/promise-helpers" "^1.0.0"
-    tslib "^2.5.0"
-
 "@envelop/types@^5.2.2":
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/@envelop/types/-/types-5.2.2.tgz#606abde91a5475f617f490c50e39de197e23a349"
   integrity sha512-nl9cmUh8F+2/NNzpcLjzNqtaVn0m8XSzzxrPU2ByHhlz4Hqlc5QBfRsemZkoJMKrMviJXyJYdKZiUP1o70F3Kw==
   dependencies:
     "@whatwg-node/promise-helpers" "^1.0.0"
+    tslib "^2.5.0"
+
+"@envelop/types@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@envelop/types/-/types-6.0.0.tgz#2a38650468d281883705047cd720022490c9c864"
+  integrity sha512-og5ZFJtIvmQwa0Yb/5JarUT4XnpxxcPTpPi+5+cYnJaLT4qYvCVxNIkW+r6/JpTcbG++DuCQHSvt9fsTDRNNOA==
+  dependencies:
+    "@whatwg-node/promise-helpers" "^2.0.0"
     tslib "^2.5.0"
 
 "@esbuild/aix-ppc64@0.27.0":
