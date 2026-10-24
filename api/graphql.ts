@@ -1,10 +1,8 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
-
 import { createInMemoryCache, useResponseCache } from "@graphql-yoga/plugin-response-cache";
-import { YogaServerOptions, createYoga } from "graphql-yoga";
+import { type YogaServerOptions, createYoga } from "graphql-yoga";
 
 import { createContext, schema } from "../data/schema";
-import { Context } from "../data/schema";
+import type { Context } from "../data/schema";
 
 const cache = createInMemoryCache()
 
