@@ -39,24 +39,6 @@
     "@whatwg-node/promise-helpers" "^2.0.2"
     tslib "^2.5.0"
 
-"@envelop/core@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@envelop/core/-/core-6.0.0.tgz#f5d88232dadd5ac7cc8b6e08ab8c86a7ad950042"
-  integrity sha512-r/FPut3JaDJnH64Hn6umeqxlZNMJsFf2IJmZzmv6F1m+Mxfez1zKmKIOOFFO4DRc6ghqqzZMvIH9r2/LVLWxuw==
-  dependencies:
-    "@envelop/instrumentation" "^2.0.0"
-    "@envelop/types" "^6.0.0"
-    "@whatwg-node/promise-helpers" "^2.0.0"
-    tslib "^2.5.0"
-
-"@envelop/instrumentation@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@envelop/instrumentation/-/instrumentation-1.0.0.tgz#43268392e065d8ba975cacbdf4fc297dfe3e11e5"
-  integrity sha512-cxgkB66RQB95H3X27jlnxCRNTmPuSTgmBAq6/4n2Dtv4hsk4yz8FadA1ggmd0uZzvKqWD6CR+WFgTjhDqg7eyw==
-  dependencies:
-    "@whatwg-node/promise-helpers" "^1.2.1"
-    tslib "^2.5.0"
-
 "@envelop/instrumentation@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@envelop/instrumentation/-/instrumentation-2.0.0.tgz#893a07fa13089482e456489edbe7c4dff37cd22e"
@@ -83,14 +65,6 @@
     "@whatwg-node/promise-helpers" "^2.0.2"
     fast-json-stable-stringify "^2.1.0"
     lru-cache "^11.0.0"
-    tslib "^2.5.0"
-
-"@envelop/types@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@envelop/types/-/types-6.0.0.tgz#2a38650468d281883705047cd720022490c9c864"
-  integrity sha512-og5ZFJtIvmQwa0Yb/5JarUT4XnpxxcPTpPi+5+cYnJaLT4qYvCVxNIkW+r6/JpTcbG++DuCQHSvt9fsTDRNNOA==
-  dependencies:
-    "@whatwg-node/promise-helpers" "^2.0.0"
     tslib "^2.5.0"
 
 "@envelop/types@^6.0.1":
@@ -1219,13 +1193,6 @@
     "@whatwg-node/promise-helpers" "^2.0.0"
     tslib "^2.6.3"
 
-"@whatwg-node/promise-helpers@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@whatwg-node/promise-helpers/-/promise-helpers-1.2.2.tgz#9e26073385086975e65609d6c9b27f9d7f92280d"
-  integrity sha512-aPVTGCs/QEYkSTnYcLKE1wyYZykbGjaXsEwXHc0FKbSlojIpdw72BQMJx9aJXzkCs6qy9WfDV0jhV9C2qIYYOA==
-  dependencies:
-    tslib "^2.6.3"
-
 "@whatwg-node/promise-helpers@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@whatwg-node/promise-helpers/-/promise-helpers-2.0.0.tgz#93a89655355bbd5d7e2b0d64fc93a88224d7030e"
@@ -1247,16 +1214,16 @@
   dependencies:
     tslib "^2.9.1"
 
-"@whatwg-node/server@^0.13.1":
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/@whatwg-node/server/-/server-0.13.1.tgz#07990b58abe9322ed67a22a78819245593a7ea01"
-  integrity sha512-J2LNQbFPbD0DxSemFnLipKyCB26g4mo1EXnhFEleVAKoi7DkI6IVjmPB5Tqt8wqyW8fmeThucLyznVCA7klg7A==
+"@whatwg-node/server@^0.13.3":
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/@whatwg-node/server/-/server-0.13.3.tgz#e91108065138fe1b3bec671a282de932259489cd"
+  integrity sha512-Q5rweDuJ+ExmykRqnAFXv+V/hC6Rk4lQUsgaiYdmxrxBJqAv6isQtq7GgQyzbcS2VL09Ab4hwHyg8yI7QYrM3Q==
   dependencies:
-    "@envelop/instrumentation" "^1.0.0"
+    "@envelop/instrumentation" "^2.0.0"
     "@whatwg-node/disposablestack" "^0.1.0"
     "@whatwg-node/fetch" "^0.12.0"
-    "@whatwg-node/promise-helpers" "^2.0.0"
-    tslib "^2.6.3"
+    "@whatwg-node/promise-helpers" "^2.0.2"
+    tslib "^2.9.1"
 
 abbrev@^2.0.0:
   version "2.0.0"
@@ -1909,21 +1876,21 @@ graceful-fs@^4.2.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-graphql-yoga@6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-6.0.1.tgz#9f0462233eff8e9ec6991ee7cf304e512e7138c5"
-  integrity sha512-uGfyZNivj4HaNvFi25ce9YLoywWLwxzlt9lM9dYETep00qsPOyGr5jR2Jeg/KxTCqOKMiyqS3oWuM0uhL8QgaQ==
+graphql-yoga@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/graphql-yoga/-/graphql-yoga-6.1.0.tgz#85f352ab431a72ce38e94ab297483ab36b0812a0"
+  integrity sha512-YID0cgrgx3oyh5fJA98414kU3x9cx88ZXGascBGrBkpibQkKRkkb4okMMCLx9n5HCMLiBdaWaFbi31D/7JvqPw==
   dependencies:
-    "@envelop/core" "^6.0.0"
-    "@envelop/instrumentation" "^2.0.0"
+    "@envelop/core" "^6.0.1"
+    "@envelop/instrumentation" "^2.0.1"
     "@graphql-hive/logger" "^1.1.1"
     "@graphql-tools/executor" "^4.1.2"
     "@graphql-tools/schema" "^11.0.0"
     "@graphql-tools/utils" "^13.1.1"
     "@graphql-yoga/subscription" "^6.0.0"
     "@whatwg-node/fetch" "^0.12.0"
-    "@whatwg-node/promise-helpers" "^2.0.0"
-    "@whatwg-node/server" "^0.13.1"
+    "@whatwg-node/promise-helpers" "^2.0.2"
+    "@whatwg-node/server" "^0.13.3"
     lru-cache "^10.0.0"
     tslib "^2.8.1"
 
