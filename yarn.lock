@@ -560,10 +560,10 @@
   resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.2.0.tgz#5f3d96ec6b2354ad6d8a28bf216a1d97b5426861"
   integrity sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==
 
-"@graphql-yoga/plugin-response-cache@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-4.1.0.tgz#9de405f96dba30d37dea9528da5dd3ff86c57304"
-  integrity sha512-ecoPhuhPp2z5ksgJyOAYHFjXY8UCY4SUBy9QJCCEqs4GWCkoF8nGSlXcRUVRRfjmnXNE6zkLBmvqttZxEA9d7A==
+"@graphql-yoga/plugin-response-cache@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-response-cache/-/plugin-response-cache-4.1.1.tgz#3ada8da21753b6ad4a912708f5781118dc77ec62"
+  integrity sha512-4zbFyIHFf5N4KS+DREoFMfwx3IHkjynMbxJntJiXCui1RrMiM6mSC/ujQsZW/WUf0pKnX1LJmNQ83W759IZ9LQ==
   dependencies:
     "@envelop/core" "^6.0.1"
     "@envelop/response-cache" "^10.0.1"
